@@ -1,0 +1,16 @@
+.card-container {
+    padding-top: 10px;
+    display: flex;
+    padding-left: 20px;
+}
+.cards {
+    background-color: lightgray;
+    width: 380px;
+    height: 290px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.attributes {
+    padding-top: 20px;
+}

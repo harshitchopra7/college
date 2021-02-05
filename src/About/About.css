@@ -1,0 +1,15 @@
+.about {
+    display: flex;
+}
+.left {
+    width: 45%;
+}
+.campus {
+    width: 450px;
+}
+.right {
+    width: 45%;
+}
+.text {
+    padding: 40px 20px;
+}

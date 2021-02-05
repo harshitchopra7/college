@@ -1,24 +1,47 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import 'tachyons';
+import { Route, Link, Switch, BrowserRouter as Router} from 'react-router-dom';
+import Nav from './Nav/Nav';
+import Home from './Home/Home';
+import Footer from './Footer/Footer';
+import About from './About/About';
+import Facilities from './Facilities/Facilities';
+import Contact from './Contact/Contact';
+import Admission from './Admission/Admission';
+import Departments from './Departments/Departments';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Router>
+        <Route exact path="/">
+          <Nav />
+          <Home />
+          <Contact />
+          <Footer />
+        </Route>
+        <Route path="/about">
+          <Nav />
+          <About />
+          <Footer />
+        </Route>
+        <Route path="/facilities">
+          <Nav />
+          <Facilities />
+          <Footer />
+        </Route>
+        <Route path="/admission">
+          <Nav />
+          <Admission />
+          <Footer />
+        </Route>
+        <Route path="/departments">
+          <Nav />
+          <Departments />
+          <Footer />
+        </Route>
+      </Router>
     </div>
   );
 }

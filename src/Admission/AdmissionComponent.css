@@ -1,0 +1,14 @@
+.align {
+    display: flex;
+}
+.fon {
+    font-size: x-large;
+}
+.left {
+    width: 50%;
+    margin-top: 10px;
+}
+.right {
+    width: 50%;
+    margin-top: 10px;
+}
