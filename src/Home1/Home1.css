@@ -1,0 +1,11 @@
+.home1 {
+    display: flex;
+    padding: 0 140px;
+    padding-top: 120px;
+}
+.home_left {
+    flex: 18%;
+}
+.home_right {
+    flex: 80%;
+}

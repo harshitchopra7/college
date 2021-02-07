@@ -1,0 +1,24 @@
+.column {
+    background-color: #40307a;
+    height: 800px;
+    color: white;
+    text-align: center;
+}
+.column_heading {
+    color: #ffd200;
+    padding-top: 10px;
+}
+.column_description {
+    align-items: center;
+}
+.column_description > p {
+    font-size: 12px;
+    padding-left: 25px;
+    text-align: left;
+    cursor: pointer;
+    margin: 10px;
+}
+.column_description > p:hover {
+    background-color: #ffd200;
+    color: black;
+}
