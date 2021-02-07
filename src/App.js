@@ -5,6 +5,7 @@ import { Route, Link, Switch, BrowserRouter as Router} from 'react-router-dom';
 import Nav from './Nav/Nav';
 import Home1 from './Home1/Home1';
 import Footer from './Footer/Footer';
+import Footer1 from './Footer1/Footer1';
 import About from './About/About';
 import Facilities from './Facilities/Facilities';
 import Contact from './Contact/Contact';
@@ -18,6 +19,7 @@ function App() {
         <Route exact path="/">
           <Nav />
           <Home1 />
+          <Footer1 />
           {/* <Contact /> */}
           {/* <Footer /> */}
         </Route>

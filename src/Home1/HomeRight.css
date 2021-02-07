@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100;1,300&display=swap');
+
 .home_right {
     padding-left: 20px;
 }
@@ -5,6 +7,7 @@
 .front_image {
     width: 100%;
 }
+
 .chairman_msg {
     background-color: #40307a;
     color: white;
@@ -13,4 +16,51 @@
     font-size: 20px;
     padding: 2px 8px;
     border-radius: 7px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.msg_desc1 {
+    display: flex;
+}
+
+.msg_desc1_left {
+    flex: 20%;
+}
+.msg_desc1_right {
+    flex: 75%;
+    padding-left: 20px;
+    text-align: justify;
+}
+.chairman_photo1 {
+    height: 400px;
+}
+.msg_desc1_right > p ,  .msg_desc2_left > p, .msg_desc3 {
+    font-size: 15px;
+}
+
+.msg_desc2 {
+    display: flex;
+}
+.msg_desc2_left {
+    flex: 20%;
+    text-align: justify;
+}
+.msg_desc2_right {
+    flex: 74%;
+    padding-left: 20px;
+}
+.chairman_photo2 {
+    width: 100%;
+}
+
+.chairman_name {
+    color: #384555;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 0;
+    margin: 0;
+}
+.chairman_designation {
+    padding-top: 3px;
+    font-size: 14px;
 }
